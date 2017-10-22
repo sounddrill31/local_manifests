@@ -1,1 +1,1 @@
-# local_manifests
+# To initialize your local repository use
