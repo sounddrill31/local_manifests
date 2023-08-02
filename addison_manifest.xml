@@ -2,10 +2,10 @@
 <manifest>
 
  <!--Tree -->
- <project path="device/motorola/addison" name="sounddrill31/android_device_motorola_addison" remote="github" revision="lineage-18.1" />
+ <project path="device/motorola/addison" name="sounddrill31/android_device_motorola_addison" remote="github" revision="lineage-19.1" />
 
  <!--Kernel -->
- <project path="kernel/motorola/msm8953" name="sounddrill31/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />
+ <project path="kernel/motorola/msm8953" name="sounddrill31/android_kernel_motorola_msm8953" remote="github" revision="lineage-19.1" />
  
  <!--Vendor -->
  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />
