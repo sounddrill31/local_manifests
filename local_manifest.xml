@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
-    <remote name="github"
-            fetch="https://github.com"
+    <remote name="addison-experimentations"
+            fetch="https://github.com/addison-experimentations"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/motorola/addison" name="addison-experimentations/android_device_motorola_addison" remote="github" revision="lineage-18.1" />
+ <project path="device/motorola/addison" name="android_device_motorola_addison" remote="addison-experimentations" revision="lineage-18.1" />
 
  <!--Kernel -->
- <project path="kernel/motorola/msm8953" name="addison-experimentations/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />
+ <project path="kernel/motorola/msm8953" name="android_kernel_motorola_msm8953" remote="addison-experimentations" revision="lineage-18.1" />
  
  <!--Vendor -->
  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />
