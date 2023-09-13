@@ -4,6 +4,8 @@
     <remote name="sounddrill31"
             fetch="https://github.com/sounddrill31"
             clone-depth="1" />
+    <remote name="MindTheGapps" fetch="https://gitlab.com/MindTheGapps/" />
  <!--Tree -->
  <project path="device/lineage/gsi" name="android_device_lineage_gsi" remote="sounddrill31" revision="lineage-20-gN" />
+ <project path="vendor/gapps" name="vendor_gapps" remote="MindTheGapps" revision="tau" />
 </manifest>
