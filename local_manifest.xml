@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Remotes -->
-  <!--  <remote name="github"
-            fetch="https://github.com"
-            clone-depth="1" /> ->
- <!--Tree -->
- <project path="device/phh/treble" name="sounddrill31/device_phh_treble_aosp" remote="github" revision="arrow-13.1" />
-
- <!--Kernel -->
- <!--<project path="kernel/motorola/msm8953" name="addison-experimentations/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />-->
- 
- <!--Vendor -->
- <!--<project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />-->
- 
- <!--Extras -->
- <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
- 
-</manifest>
-<!-- Alternative -->
-<!-- <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
 <remote name="phh" fetch="https://github.com/phhusson/" />
 <remote name="td" fetch="https://github.com/TrebleDroid/" />
 
@@ -34,4 +14,4 @@
 <project path="vendor/magisk" name="vendor_magisk" remote="phh" revision="android-10.0" />
 
 <project path="packages/apps/QcRilAm" name="AndyCGYan/android_packages_apps_QcRilAm" remote="github" revision="master" />
-</manifest> -->
+</manifest>
