@@ -3,7 +3,7 @@
 <remote name="phh" fetch="https://github.com/phhusson/" />
 <remote name="td" fetch="https://github.com/TrebleDroid/" />
 
-<project path="device/phh/treble" name="sounddrill31/device_phh_treble_aosp" remote="github" revision="arrow-13.1" />
+<project path="device/phh/treble" name="sounddrill31/device_phh_treble_aosp" remote="github" revision="derpfest-13" />
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="td" revision="pie" />
 
 <project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="phh" revision="master" />
