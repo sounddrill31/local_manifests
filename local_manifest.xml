@@ -9,8 +9,7 @@
             clone-depth="1" />
     <remote name="sanek"
             fetch="https://github.com/Sanek-creed"
-            clone-depth="1" />           
-<remote name="lineage" fetch="https://github.com" clone-depth="1" />             
+            clone-depth="1" />              
  <!--Tree -->
  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-1" remote="sounddrill31" revision="derpfest-13" />
 
