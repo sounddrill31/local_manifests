@@ -27,10 +27,10 @@
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
  <!-- Common - Kernel 4.19 -->
-  <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="mi-thorium"/>
+<!--  <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="mi-thorium"/> -->
 
  <!-- Prebuilt Kernel -->
-  <project path="device/xiaomi/kernel-mithorium" name="android_device_xiaomi_kernel-mithorium" groups="device" remote="mi-thorium" revision="master"/>
+<!--  <project path="device/xiaomi/kernel-mithorium" name="android_device_xiaomi_kernel-mithorium" groups="device" remote="mi-thorium" revision="master"/> -->
 
  <!-- Hardware -->
   <project path="hardware/mithorium/aosp" name="android_hardware_mithorium_aosp" groups="device" remote="mi-thorium" revision="a13">
@@ -71,14 +71,14 @@
   <project path="device/xiaomi/MiThoriumSSI" name="android_device_xiaomi_MiThoriumSSI" groups="device" remote="mi-thorium" revision="a13/aosp"/>
 
  <!-- Mi8937 -->
-  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="mi-thorium" revision="a13/aosp"/>
+ <!-- <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="mi-thorium" revision="a13/aosp"/>
   <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium" revision="a13/master"/>
   <project path="device/xiaomi/land-camera"   name="android_device_xiaomi_land-camera"   groups="device" remote="mi-thorium" revision="sairam/a11/master"/>
   <project path="device/xiaomi/mi8937-camera" name="android_device_xiaomi_mi8937-camera" groups="device" remote="mi-thorium" revision="a11/master"/>
-  <project path="device/xiaomi/prada-camera"  name="android_device_xiaomi_prada-camera"  groups="device" remote="mi-thorium" revision="a11/master"/>
+  <project path="device/xiaomi/prada-camera"  name="android_device_xiaomi_prada-camera"  groups="device" remote="mi-thorium" revision="a11/master"/> 
 
  <!-- Mi8937 - Kernel 4.19 -->
-  <project path="device/xiaomi/Mi8937_4_19" name="android_device_xiaomi_Mi8937_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
+  <project path="device/xiaomi/Mi8937_4_19" name="android_device_xiaomi_Mi8937_4_19" groups="device" remote="mi-thorium" revision="a11/master"/> -->
 
  <!-- Mi439 -->
 <!--
@@ -89,5 +89,5 @@
  <!-- Mi439 - Kernel 4.19 -->
 <!--
   <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
--->
+--> 
 </manifest>
