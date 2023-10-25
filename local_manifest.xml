@@ -9,7 +9,8 @@
             clone-depth="1" />
     <remote name="sanek"
             fetch="https://github.com/Sanek-creed"
-            clone-depth="1" />                        
+            clone-depth="1" />           
+<remote name="lineage" fetch="https://github.com" clone-depth="1" />             
  <!--Tree -->
  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-1" remote="sounddrill31" revision="derpfest-13" />
 <!-- <project path="device/xiaomi/mithorium-common" name="Mi-Thorium/android_device_xiaomi_mithorium-common" remote="github" revision="a13/aosp" /> -->
@@ -25,12 +26,6 @@
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium" revision="a13/aosp"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
-
- <!-- Common - Kernel 4.19 -->
-<!--  <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="mi-thorium"/> -->
-
- <!-- Prebuilt Kernel -->
-<!--  <project path="device/xiaomi/kernel-mithorium" name="android_device_xiaomi_kernel-mithorium" groups="device" remote="mi-thorium" revision="master"/> -->
 
  <!-- Hardware -->
   <project path="hardware/mithorium/aosp" name="android_hardware_mithorium_aosp" groups="device" remote="mi-thorium" revision="a13">
