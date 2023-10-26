@@ -83,9 +83,9 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" revision="lineage-20.0" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" revision="lineage-20.0" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" revision="lineage-20.0" />
-  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" remote="lineage" revision="lineage-20.0" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="lineage" revision="lineage-20.0" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" remote="lineage" revision="lineage-20.0" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" remote="lineage" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="lineage" revision="lineage-20.0" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" remote="lineage" revision="lineage-20.0" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="lineage" revision="lineage-20.0" />
