@@ -86,7 +86,7 @@
 
  <!-- oxygen -->
  <project path="device/xiaomi/oxygen" name="sounddrill31/android_device_xiaomi_oxygen-1" remote="github" revision="CherishOS-tiramisu" />
-  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen"     groups="device" remote="mi-thorium"/>
+  <project path="kernel/xiaomi/oxygen" name="android_kernel_xiaomi_oxygen"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_xiaomi_oxygen" groups="device" remote="mi-thorium" revision="a11/master"/>
 
  <!-- vince -->
