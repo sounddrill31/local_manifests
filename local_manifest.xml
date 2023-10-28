@@ -59,56 +59,12 @@
  <!-- MiThoriumSSI -->
   <project path="device/xiaomi/MiThoriumSSI" name="android_device_xiaomi_MiThoriumSSI" groups="device" remote="mi-thorium"/>
 
- <!-- Mi8937 -->
-  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="mi-thorium"/>
-  <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium" revision="a13/master"/>
-  <project path="device/xiaomi/land-camera"   name="android_device_xiaomi_land-camera"   groups="device" remote="mi-thorium" revision="sairam/a11/master"/>
-  <project path="device/xiaomi/mi8937-camera" name="android_device_xiaomi_mi8937-camera" groups="device" remote="mi-thorium" revision="a11/master"/>
-  <project path="device/xiaomi/prada-camera"  name="android_device_xiaomi_prada-camera"  groups="device" remote="mi-thorium" revision="a11/master"/>
-
- <!-- Mi8937 - Kernel 4.19 -->
-  <project path="device/xiaomi/Mi8937_4_19" name="android_device_xiaomi_Mi8937_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
-
- <!-- Mi439 -->
-  <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="mi-thorium"/>
-  <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="mi-thorium" revision="a13/master"/>
-  <project path="vendor/miuicamera"    name="ArrowOS-Devices/android_vendor_miuicamera"       remote="github"     revision="arrow-12.0-a3"/>
-
- <!-- Mi439 - Kernel 4.19 -->
-  <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
-
- <!-- Tiare -->
-  <project path="device/xiaomi/Tiare" name="android_device_xiaomi_Tiare"     groups="device" remote="mi-thorium"/>
-  <project path="vendor/xiaomi/Tiare" name="proprietary_vendor_xiaomi_Tiare" groups="device" remote="mi-thorium" revision="a11/master"/>
-
- <!-- Tiare - Kernel 4.19 -->
-  <project path="device/xiaomi/Tiare_4_19" name="android_device_xiaomi_Tiare_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
 
  <!-- oxygen -->
  <project path="device/xiaomi/oxygen" name="sounddrill31/android_device_xiaomi_oxygen-1" remote="github" revision="CherishOS-tiramisu" />
   <project path="kernel/xiaomi/oxygen" name="android_kernel_xiaomi_oxygen"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_xiaomi_oxygen" groups="device" remote="mi-thorium" revision="a11/master"/>
 
- <!-- vince -->
-  <project path="kernel/xiaomi/vince" name="kernel_msm-4.9"                                  remote="mi-thorium" revision="vince/a13/master"/>
-  <project path="device/xiaomi/vince" name="android_device_xiaomi_vince"     groups="device" remote="mi-thorium"/>
-  <project path="vendor/xiaomi/vince" name="proprietary_vendor_xiaomi_vince" groups="device" remote="mi-thorium" revision="a13/master"/>
-
- <!-- uter -->
-  <project path="kernel/xiaomi/uter" name="kernel_msm-4.9"                                 remote="mi-thorium" revision="uter/a13/master"/>
-  <project path="device/xiaomi/uter" name="android_device_xiaomi_uter"     groups="device" remote="mi-thorium"/>
-  <project path="vendor/xiaomi/uter" name="proprietary_vendor_xiaomi_uter" groups="device" remote="mi-thorium" revision="a11/master"/>
-
- <!-- onc -->
-  <project path="device/xiaomi/onc" name="android_device_xiaomi_onc"     groups="device" remote="mi-thorium"/>
-  <project path="vendor/xiaomi/onc" name="proprietary_vendor_xiaomi_onc" groups="device" remote="mi-thorium" revision="a11/master"/>
-
- <!-- msm8937 -->
-  <project path="device/qualcomm/msm8937" name="android_device_qualcomm_msm8937"     groups="device" remote="mi-thorium"/>
-  <project path="vendor/qualcomm/msm8937" name="proprietary_vendor_qualcomm_msm8937" groups="device" remote="mi-thorium" revision="a11/master"/>
-
- <!-- msm8937 - Kernel 4.19 -->
-  <project path="device/qualcomm/msm8937_4_19" name="android_device_xiaomi_Mi8937_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
 
 </manifest>
 <!--source: https://github.com/Mi-Thorium/local_manifests/blob/master/lineage-20.0.xml-->
