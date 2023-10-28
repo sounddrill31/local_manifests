@@ -56,9 +56,6 @@
   <project path="hardware/mithorium/media/lineage-20.0-caf-msm8953/hal" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-20.0-caf-msm8953" />
   <project path="hardware/mithorium/display/lineage-20.0-caf-msm8953/hal" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-20.0-caf-msm8953" />
 
- <!-- MiThoriumSSI -->
-  <project path="device/xiaomi/MiThoriumSSI" name="android_device_xiaomi_MiThoriumSSI" groups="device" remote="mi-thorium"/>
-
 
  <!-- oxygen -->
  <project path="device/xiaomi/oxygen" name="sounddrill31/android_device_xiaomi_oxygen-1" remote="github" revision="CherishOS-tiramisu" />
