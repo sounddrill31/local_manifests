@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="mi-thorium"
-           fetch="https://github.com/Mi-Thorium"
-           revision="a13/master" />
+           fetch="https://github.com/Mi-Thorium" />
 
    <remote name="sounddrill31"
             fetch="https://github.com/sounddrill31"
@@ -23,7 +22,7 @@
 
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium" revision="a13/aosp"/>
-  <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
+  <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium" revision="a13/master" />
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
  <!-- Hardware -->
@@ -100,3 +99,4 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0" />
 </manifest>
+<!--credit to mithorium for manifests and repos-->
