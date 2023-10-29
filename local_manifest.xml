@@ -43,7 +43,7 @@
   </project>
 
  <!-- Hardware - display-commonsys-intf -->
-  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" groups="qcom,pdk-qcom" remote="lineage-20.0" />
+  <!--<project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" groups="qcom,pdk-qcom" remote="lineage-20.0" />-->
   <project path="hardware/mithorium/display/lineage-20.0-caf-msm8953/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" groups="qcom,pdk-qcom" remote="lineage-20.0" />
 
  <!-- Hardware - LA.UM.8.6.2 -->
