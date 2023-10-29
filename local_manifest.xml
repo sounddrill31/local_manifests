@@ -18,7 +18,7 @@
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium" revision="a13/master"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium" revision="a13/master" />
-  <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
+  <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" remote="mi-thorium" revision="a11/master"/>
 
  <!-- Hardware -->
   <project path="hardware/mithorium/common" name="android_hardware_mithorium_common" groups="device" remote="mi-thorium" revision="lineage">
@@ -37,8 +37,8 @@
   </project>
 
  <!-- Hardware - display-commonsys-intf -->
-  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
-  <project path="hardware/mithorium/display/lineage-20.0-caf-msm8953/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
+  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" groups="qcom,pdk-qcom"/>
+  <project path="hardware/mithorium/display/lineage-20.0-caf-msm8953/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" groups="qcom,pdk-qcom"/>
 
  <!-- Hardware - LA.UM.8.6.2 -->
   <project path="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0"/>
@@ -49,14 +49,14 @@
   <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0"/>
 
  <!-- Hardware - LineageOS (based on LA.UM.10.6.2 tags) -->
-  <project path="hardware/mithorium/media/lineage-20.0-caf-msm8953/hal" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-20.0-caf-msm8953" />
-  <project path="hardware/mithorium/display/lineage-20.0-caf-msm8953/hal" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-20.0-caf-msm8953" />
+  <project path="hardware/mithorium/media/lineage-20.0-caf-msm8953/hal" name="LineageOS/android_hardware_qcom_media" remote="github" groups="qcom,pdk-qcom" revision="lineage-20.0-caf-msm8953" />
+  <project path="hardware/mithorium/display/lineage-20.0-caf-msm8953/hal" name="LineageOS/android_hardware_qcom_display" remote="github" groups="pdk-qcom,qcom,qcom_display" revision="lineage-20.0-caf-msm8953" />
 
 
  <!-- oxygen -->
  <project path="device/xiaomi/oxygen" name="sounddrill31/android_device_xiaomi_oxygen-1" remote="github" revision="CherishOS-tiramisu" />
  <project path="kernel/xiaomi/oxygen" name="kernel_msm-4.9"                                   remote="mi-thorium" revision="oxygen/a13/master"/>
- <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_xiaomi_oxygen" groups="device" remote="mi-thorium" revision="a11/master"/>
+ <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_xiaomi_oxygen" remote="mi-thorium" revision="a11/master"/>
 
 
 </manifest>
