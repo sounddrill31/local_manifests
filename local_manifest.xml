@@ -53,6 +53,9 @@
 
 
 <!--Other HALs-->
+    <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-13.1-caf-msm8998" />
+    <project path="hardware/qcom-caf/msm8996-R/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-13.1-caf-msm8996-R" />
+  
   <!--<project path="hardware/qcom-caf/oxygen/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
    <!--<project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
      <!--<project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-20.0-caf-msm8953" />-->
