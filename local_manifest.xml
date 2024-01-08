@@ -13,7 +13,7 @@
  <!--Tree -->
  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-1" remote="sounddrill31" revision="derpfest-13" />
  <!--Kernel -->
- <project path="kernel/xiaomi/oxygen" name="kernel_xiaomi_oxygen" remote="sanek" revision="13.0" />
+ <project path="kernel/xiaomi/oxygen" name="kernel_msm-4.9" remote="mi-thorium" revision="oxygen/a13/master" />
  <!--Vendor -->
  <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_xiaomi_oxygen" remote="sounddrill31" revision="a11/master" />
   
