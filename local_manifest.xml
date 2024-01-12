@@ -72,5 +72,5 @@
     <project name="android_vendor_arrow" path="vendor/arrow" remote="sounddrill31" revision="arrow-13.1" />
       <!-- sepolicy -->
       <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="linag"/>
-      <!--<project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-20.0-legacy-um" remote="gh" />-->
+      
 </manifest>
