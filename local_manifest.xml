@@ -21,14 +21,14 @@
   <remove-project name="android_hardware_qcom_wlan"/>
     <remove-project name="android_vendor_arrow" />
     <!--Tree -->
-   <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-1" remote="sounddrill31" revision="a13/arrow" />
+   <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-1" remote="sounddrill31" revision="a13/rom/arrow" />
    <!--Kernel -->
    <project path="kernel/xiaomi/oxygen" name="kernel_msm-4.9" remote="mi-thorium" revision="oxygen/a13/master" />
    <!--Vendor -->
    <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_xiaomi_oxygen" remote="sounddrill31" revision="a11/master" />
 
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="sounddrill31" revision="a13/arrow"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="sounddrill31" revision="a13/rom/arrow"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
