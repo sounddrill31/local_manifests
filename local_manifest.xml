@@ -34,7 +34,8 @@
  
  <!--Vendor -->
  <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="sounddrill31" revision="derpfest-13_4.19" />
-
+<!-- Vendor - Derpfest -->
+      <project name="vendor_derp" path="vendor/derp" remote="sounddrill31" revision="13" />
   
   <!--<remove-project name="LineageOS/android_vendor_lineage"/>-->
 
