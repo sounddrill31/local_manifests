@@ -13,7 +13,10 @@
       <remote name="linag"
                     fetch="https://github.com/"
                     revision="lineage-20.0"
-                    clone-depth="1" />         
+                    clone-depth="1" />       
+       <remote name="arrowOS"
+                    fetch="https://github.com/ArrowOS"
+                    clone-depth="1" />     
    <!--CleanUp Existing-->
   <remove-project name="android_hardware_qcom_audio"/>
   <remove-project name="android_hardware_qcom_media"/>
@@ -76,6 +79,7 @@
  <!-- More Stuff -->
     <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="linag" />
     <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="linag" />
-   
+    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrowOS" revision="arrow-13.1-caf"/>
+  
   
 </manifest>
