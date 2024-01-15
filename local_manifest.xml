@@ -79,7 +79,4 @@
  <!-- More Stuff -->
     <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="linag" />
     <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="linag" />
-    <!--<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrowOS" revision="arrow-13.1-caf"/>-->
-    <!--<project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="arrowOS" revision="arrow-13.1" />-->
-  
 </manifest>
