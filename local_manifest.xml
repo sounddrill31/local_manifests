@@ -11,7 +11,7 @@
 
 
  <!--Kernel -->
- <project path="device/infinix/X6833B-kernel" name="Transsion-MT6789-Resources/device_transsion_mt6789-common-kernel" remote="gh" revision="lineage-20.0" />
+ <project path="device/infinix/X6833B-kernel" name="Transsion-MT6789-Resources/device_transsion_mt6789-common-kernel" remote="gh" revision="lineage-20" />
  
  <!--Vendor -->
  <project path="vendor/infinix/X6833B" name="Transsion-MT6789-Resources/vendor_infinix_x6833b" remote="gh" revision="lineage-20.0" />
