@@ -4,14 +4,17 @@
     <remote name="gh"
             fetch="https://github.com"
             clone-depth="1" />
+     <remote name="gl"
+            fetch="https://gitlab.com"
+            clone-depth="1" />
  <!--Tree -->
  <project path="device/xiaomi/blossom" name="snnbyyds/device_xiaomi_blossom" remote="gh" revision="lineage-20" />
 
  <!--Kernel -->
- <!--<project path="kernel/motorola/msm8953" name="addison-experimentations/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />-->
+ <project path="device/xiaomi/blossom-kernel" name="xiaomi-mt6765-dev/device_xiaomi_blossom-kernel" remote="gh" revision="lineage-20" />
  
  <!--Vendor -->
- <!--<project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />-->
+ <project path="vendor/xiaomi/blossom" name="Xiaomi-MT6765/vendor_xiaomi_blossom" remote="gl" revision="lineage-20" />
  
  <!--Extras -->
  <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
