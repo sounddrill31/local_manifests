@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
-    <remote name="github"
+    <remote name="gh"
             fetch="https://github.com"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/xiaomi/blossom" name="snnbyyds/device_xiaomi_blossom" remote="github" revision="lineage-20" />
+ <project path="device/xiaomi/blossom" name="snnbyyds/device_xiaomi_blossom" remote="gh" revision="lineage-20" />
 
  <!--Kernel -->
  <!--<project path="kernel/motorola/msm8953" name="addison-experimentations/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />-->
