@@ -21,7 +21,6 @@
     <remote  name="NopeNopeGuy"
            fetch="https://github.com/NopeNopeGuy"/>   
   <!--CleanUp Existing-->
-  <remove-project name="vendor_derp"/>
   <!--<remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <remove-project name="LineageOS/android_hardware_qcom_media"/>
   <remove-project name="android_device_xiaomi_oxygen-3"/>
@@ -35,8 +34,6 @@
  
  <!--Vendor -->
  <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="sounddrill31" revision="derpfest-13_4.19" />
-<!-- Vendor - Derpfest -->
- <project path="vendor/derp" name="vendor_derp" remote="sounddrill31" revision="13-vanilla" />
   
   <!--<remove-project name="LineageOS/android_vendor_lineage"/>-->
 
