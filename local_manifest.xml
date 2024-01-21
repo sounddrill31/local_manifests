@@ -14,7 +14,7 @@
  <project path="device/infinix/X6833B-kernel" name="Transsion-MT6789-Resources/device_transsion_mt6789-common-kernel" remote="gh" revision="lineage-20" />
  
  <!--Vendor -->
- <project path="vendor/infinix/X6833B" name="Transsion-MT6789-Resources/vendor_infinix_x6833b" remote="gh" revision="lineage-20.0" />
+ <project path="vendor/infinix/X6833B" name="android_vendor_infinix_X6833B" remote="sounddrill31" revision="X6833B" />
 <!--CleanUp Existing-->
   <!--<remove-project name="LineageOS/android_vendor_lineage"/>-->
 
