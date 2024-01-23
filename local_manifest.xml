@@ -60,7 +60,8 @@
 
 
 <!--Other HALs-->
-    <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8998" />
+    <project path="hardware/qcom-caf/msm8996/display/display-commonsys-intf" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="arrowOS" revision="arrow-13.1"/>
+    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8996-R" />
     <!--<project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8998" />-->
     <!--<project path="hardware/qcom-caf/msm8996-R/display" name="android_hardware_qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8996-R" /> -->
   
@@ -73,7 +74,6 @@
 <!--<project path="vendor/lineage" name="android_vendor_lineage" remote="NopeNopeGuy" revision="lineage-20.0"/>-->
 
  <!-- Dependencies -->
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="arrowOS" revision="arrow-13.1"/>
  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrowOS" revision="arrow-13.1-caf"/>
   <!-- Replacements -->
 
