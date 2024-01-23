@@ -24,10 +24,10 @@
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/" />  
   <!--CleanUp Existing-->
-  <remove-project name="android_hardware_qcom_audio"/>
+ <!-- <remove-project name="android_hardware_qcom_audio"/>
   <remove-project name="android_hardware_qcom_media"/>
   <remove-project name="android_hardware_qcom_display"/>
-  <remove-project name="android_hardware_qcom_wlan"/>
+  <remove-project name="android_hardware_qcom_wlan"/>-->
   <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf"/>
 <remove-project name="android_hardware_qcom-caf_common"/>
   <!--<remove-project name="LineageOS/android_hardware_qcom_audio"/>
