@@ -60,7 +60,7 @@
 
 <!--Other HALs-->
     <!--<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8996-R" />-->
-    <project path="hardware/qcom-caf/msm8996/display" name="afterallafk/hardware_qcom-caf_msm8996_display" remote="gh" revision="13" />
+    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="sounddrill31" revision="lineage-20.0-caf-msm8996" />
   
     
   <!--<project path="hardware/qcom-caf/oxygen/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
