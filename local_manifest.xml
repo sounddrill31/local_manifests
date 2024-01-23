@@ -59,7 +59,7 @@
 
 <!--Other HALs-->
     <!--<project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8998" />-->
-    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8996-R" />
+    <project path="hardware/qcom-caf/msm8996-R/display" name="android_hardware_qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8996-R" />
   
   <!--<project path="hardware/qcom-caf/oxygen/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
    <!--<project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
@@ -172,7 +172,7 @@
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8996-R/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996-R/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
