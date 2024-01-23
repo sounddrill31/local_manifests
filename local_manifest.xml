@@ -29,12 +29,13 @@
   <remove-project name="android_hardware_qcom_display"/>
   <remove-project name="android_hardware_qcom_wlan"/>-->
   <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf"/>
-<remove-project name="android_hardware_qcom-caf_common"/>
+<!--<remove-project name="android_hardware_qcom-caf_common"/>-->
   <!--<remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <remove-project name="LineageOS/android_hardware_qcom_media"/>
   <remove-project name="android_device_xiaomi_oxygen-3"/>
   <remove-project name="kernel_msm8953_4.19"/>
   <remove-project name="proprietary_vendor_oxygen"/>-->
+<remove-project name="android_hardware_qcom_wlan"/>
  <!--Tree -->
  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="arrow-13.1_4.19" />
 
@@ -72,7 +73,8 @@
 
  <!-- Dependencies -->
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="arrowOS" revision="arrow-13.1"/>
- <!-- Replacements -->
+ <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrowOS" revision="arrow-13.1-caf"/>
+  <!-- Replacements -->
 
  <!-- Common -->
   <!--<project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium"/>
