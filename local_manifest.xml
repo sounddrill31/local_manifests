@@ -27,7 +27,7 @@
   <remove-project name="kernel_msm8953_4.19"/>
   <remove-project name="proprietary_vendor_oxygen"/>-->
  <!--Tree -->
- <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="derpfest-13_4.19" />
+ <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="derpfest-14-4.19" />
 
  <!--Kernel -->
  <project path="kernel/xiaomi/oxygen" name="kernel_msm8953_4.19" remote="halibw" revision="oxygen/spec/main" />
@@ -51,7 +51,8 @@
   <!--<project path="hardware/qcom-caf/oxygen/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
    <!--<project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
      <!--<project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-20.0-caf-msm8953" />-->
-  <project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" remote="gh" revision="lineage-20.0-caf-msm8953" />
+   <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0"/>
+ <!--         <project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" remote="gh" revision="lineage-20.0-caf-msm8953" />-->
   <!--<project path="hardware/qcom-caf/msm8953/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-20.0-caf-msm8953" />-->
   <!--NopeNope's Fix-->
 <!--<project path="vendor/lineage" name="android_vendor_lineage" remote="NopeNopeGuy" revision="lineage-20.0"/>-->
