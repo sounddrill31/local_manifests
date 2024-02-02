@@ -24,7 +24,7 @@
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/" />  
  <remove-project name="android_hardware_qcom_display"/>
-    <remove-project name="android_vendor_arrow" />
+    <!--<remove-project name="android_vendor_arrow" />-->
   <!--CleanUp Existing-->
  <!-- <remove-project name="android_hardware_qcom_audio"/>
   <remove-project name="android_hardware_qcom_media"/>
@@ -36,12 +36,11 @@
   <remove-project name="android_device_xiaomi_oxygen-3"/>
   <remove-project name="kernel_msm8953_4.19"/>
   <remove-project name="proprietary_vendor_oxygen"/>-->
-<remove-project name="android_hardware_qcom_wlan"/>
  <!--Tree -->
  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="arrow-13.1_4.19" />
 
  <!--Kernel -->
- <project path="kernel/xiaomi/oxygen" name="kernel_msm8953_4.19" remote="halibw" revision="oxygen/spec/main" />
+ <project path="kernel/xiaomi/oxygen" name="android_kernel_xiaomi_oxygen" remote="halibw" revision="lineage-21" />
  
  <!--Vendor -->
  <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="sounddrill31" revision="derpfest-13_4.19" />
@@ -61,7 +60,7 @@
 
 <!--Other HALs-->
     <!--<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8996-R" />-->
-    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display-arrow" remote="sounddrill31" revision="arrow-13.1-caf-msm8996-R" />
+    <!--<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display-arrow" remote="sounddrill31" revision="arrow-13.1-caf-msm8996-R" />-->
   
     
   <!--<project path="hardware/qcom-caf/oxygen/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
@@ -75,7 +74,6 @@
 <!--<project path="vendor/lineage" name="android_vendor_lineage" remote="NopeNopeGuy" revision="lineage-20.0"/>-->
 
  <!-- Dependencies -->
- <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrowOS" revision="arrow-13.1-caf"/>
   <!-- Replacements -->
 
  <!-- Common -->
@@ -173,5 +171,5 @@
   <!--<project path="device/qualcomm/msm8937_4_19" name="android_device_xiaomi_Mi8937_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
 -->
 <!-- Vendor - ArrowOS by SirRGB (thanks!) -->
-    <project name="android_vendor_arrow" path="vendor/arrow" remote="sounddrill31" revision="arrow-13.1" />
+   <!-- <project name="android_vendor_arrow" path="vendor/arrow" remote="sounddrill31" revision="arrow-13.1" />-->
 </manifest>
