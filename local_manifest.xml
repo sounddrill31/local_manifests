@@ -37,7 +37,6 @@
   <remove-project name="kernel_msm8953_4.19"/>
   <remove-project name="proprietary_vendor_oxygen"/>-->
 <remove-project name="android_hardware_qcom_wlan"/>
-<remove-project name="android_vendor_qcom_opensource_display-commonsys-intf"/>
  <!--Tree -->
  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="arrow-13.1_4.19" />
 
@@ -60,9 +59,9 @@
 
 <!--Other HALs-->
     <!--<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8996-R" />-->
-    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0"/>
+    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="sounddrill31" revision="arrow-13.1-oxygen"/>
     
-  <project path="vendor/qcom/opensource/display-commonsys-intf" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="sounddrill31" revision="arrow-13.1"/>
+  <!--<project path="vendor/qcom/opensource/display-commonsys-intf" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="sounddrill31" revision="arrow-13.1"/>-->
   <!--<project path="hardware/qcom-caf/oxygen/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
    <!--<project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
      <!--<project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-20.0-caf-msm8953" />-->
