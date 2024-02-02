@@ -41,8 +41,7 @@
  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="arrow-13.1_4.19" />
 
  <!--Kernel -->
- <project path="kernel/xiaomi/oxygen" name="kernel_msm8953_4.19" remote="halibw" revision="oxygen/spec/main" />
- 
+ <project path="kernel/xiaomi/oxygen" name="android_kernel_xiaomi_oxygen" remote="halibw" revision="lineage-21" /> 
  <!--Vendor -->
  <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="sounddrill31" revision="derpfest-13_4.19" />
 
