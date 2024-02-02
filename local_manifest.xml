@@ -24,7 +24,7 @@
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/" />  
  <remove-project name="android_hardware_qcom_display"/>
-    <remove-project name="android_vendor_arrow" />
+    <!--<remove-project name="android_vendor_arrow" />-->
   <!--CleanUp Existing-->
  <!-- <remove-project name="android_hardware_qcom_audio"/>
   <remove-project name="android_hardware_qcom_media"/>
@@ -61,8 +61,7 @@
 
 <!--Other HALs-->
     <!--<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrowOS" revision="arrow-13.1-caf-msm8996-R" />-->
-    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display-arrow" remote="sounddrill31" revision="arrow-13.1-caf-msm8996-R" />
-  
+    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0"/>
     
   <!--<project path="hardware/qcom-caf/oxygen/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
    <!--<project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" />-->
@@ -173,5 +172,5 @@
   <!--<project path="device/qualcomm/msm8937_4_19" name="android_device_xiaomi_Mi8937_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
 -->
 <!-- Vendor - ArrowOS by SirRGB (thanks!) -->
-    <project name="android_vendor_arrow" path="vendor/arrow" remote="sounddrill31" revision="arrow-13.1" />
+    <!--<project name="android_vendor_arrow" path="vendor/arrow" remote="sounddrill31" revision="arrow-13.1" />-->
 </manifest>
