@@ -21,7 +21,7 @@
 
 
  <!--Kernel -->
- <project path="kernel/xiaomi/oxygen" name="android_kernel_xiaomi_oxygen" remote="halibw" revision="lineage-21" />
+ <project path="kernel/xiaomi/oxygen" name="kernel_msm8953_4.19" remote="halibw" revision="oxygen/spec/main" />
  
  <!--Vendor -->
  <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="halibw" revision="lineage-20_4.19" />
