@@ -26,8 +26,8 @@
  <!--Vendor -->
  <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="halibw" revision="lineage-20_4.19" />
 <!--CleanUp Existing-->
-  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-  <remove-project name="LineageOS/android_hardware_qcom_media"/>
+  <!--<remove-project name="LineageOS/android_hardware_qcom_audio"/>
+  <remove-project name="LineageOS/android_hardware_qcom_media"/>-->
   <!--<remove-project name="LineageOS/android_vendor_lineage"/>-->
 
 
