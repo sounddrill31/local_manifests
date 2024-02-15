@@ -14,17 +14,17 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/even" name="device_oplus_even" remote="cumaRull" revision="Lineageos-19.0" />
+   <project path="device/realme/RMX3191" name="device_oplus_even" remote="cumaRull" revision="master" />
    <!--Kernel -->
-   <project path="kernel/realme/even" name="liquid_kernel_realme_even" remote="cumaRull" revision="OSS-RUI2" />
+   <project path="kernel/realme/RMX3191" name="liquid_kernel_realme_even" remote="cumaRull" revision="OSS-RUI2" />
    <!--Vendor -->
-   <project path="vendor/realme/even" name="vendor_realme_even" remote="kharame-devices" revision="twelve" />
+   <project path="vendor/realme/RMX3191" name="vendor_realme_even" remote="cumaRull" revision="master" />
 
 
    <!-- Common -->
     <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"     groups="device" remote="even" revision="lineage-19.0"/>
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" groups="device" remote="even" revision="aosp12"/>
-    <project path="vendor/realme/even-ims" name="vendor_realme_even-ims" groups="device" remote="mi-thorium" revision="a11/master"/>
+    <project path="vendor/realme/even-ims" name="vendor_realme_even-ims" groups="device" remote="cumaRull" revision="master"/>
 
    <!-- Common - Kernel 4.19 -->
  <!--   <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="mi-thorium"/>
