@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
-           revision="a13/master" />
+           revision="a13/master" >
 
    <remote name="sounddrill31"
             fetch="https://github.com/sounddrill31"
@@ -30,7 +30,7 @@
   <remove-project name="LineageOS/android_hardware_qcom_media"/>
   <!--<remove-project name="LineageOS/android_vendor_lineage"/>-->
 
-
+Broken
 
 <!-- Halibw HALs-->
   <!--<project path="hardware/qcom-caf/oxygen/media" name="hardware_qcom_msm8953_4.19_media" remote="halibwdev" revision="LA.UM.9.6.4.r1-05200"/>-->
