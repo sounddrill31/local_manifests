@@ -15,8 +15,14 @@
     <remote  name="halibwdev"
            fetch="https://github.com/halibw-dev"/>                     
     <remote  name="NopeNopeGuy"
-           fetch="https://github.com/NopeNopeGuy"/>                                  
- <!--Tree -->
+           fetch="https://github.com/NopeNopeGuy"/>    
+<!-- My Additions -->
+  <remove-project name="frameworks_base"/>
+  <project path="frameworks/base" name="plros_frameworks_base" remote="sounddrill31" revision="lineage-20.0" />
+  <remove-project name="packages_apps_Settings"/>
+  <project path="packages/apps/Settings" name="plros_packages_apps_Settings" remote="sounddrill31" revision="lineage-20.0" />
+  
+  <!--Tree -->
  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="plrOS-20.0_4.19" />
 
 
