@@ -1,10 +1,10 @@
 To initialize your local repository use
 ---------------------------------------
 
-    git clone https://github.com/sounddrill31/local_manifests.git -b lineage-oxygen .repo/local_manifests
+    git clone https://github.com/sounddrill31/local_manifests.git -b lineage-20-bacon .repo/local_manifests
     
 
 Then to sync up:
 ----------------
 
-    repo sync --force-sync -j8 --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken
+    repo sync --force-sync -j $(nproc --all) --current-branch --no-tags --no-clone-bundle --optimized-fetch
