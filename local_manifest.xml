@@ -19,7 +19,8 @@
 
  <!-- Replacements -->
 
- <!-- Common -->
+ <!-- Common --> 
+ <project path="device/oppo/common" name="android_device_oppo_common" remote="sounddrill31" revision="lineage-20" />
  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="sounddrill31" revision="lineage-21" />
  <project path="vendor/oppo/msm8974-common" name="proprietary_vendor_oppo_msm8974-common" remote="sounddrill31" revision="lineage-20" />
 
