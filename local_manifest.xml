@@ -2,7 +2,9 @@
 <manifest>
    <remote name="sounddrill31"
             fetch="https://github.com/sounddrill31"
-            clone-depth="1" />                                 
+            clone-depth="1" />  
+    <remote  name="halibw"
+           fetch="https://github.com/halibw"/>                                 
  <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="twrp" />
  <project path="kernel/xiaomi/oxygen" name="kernel_msm8953_4.19" remote="halibw" revision="oxygen/spec/main" />
 </manifest>
