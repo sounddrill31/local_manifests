@@ -11,7 +11,7 @@
  <!--<project path="kernel/motorola/msm8953" name="addison-experimentations/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />-->
  
  <!--Vendor -->
- <!--<project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />-->
+ <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="lineage-17.1" />
  
  <!--Extras -->
  <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
