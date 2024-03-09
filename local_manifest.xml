@@ -17,7 +17,7 @@
     <remote  name="NopeNopeGuy"
            fetch="https://github.com/NopeNopeGuy"/>                                  
  <!--Tree -->
- <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="lineage-20.0_4.19" />
+ <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="attempt/lineage-18.1_4.19" />
 
 
  <!--Kernel -->
