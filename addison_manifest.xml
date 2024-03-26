@@ -10,11 +10,7 @@
  <!--Tree -->
  <project path="device/motorola/addison" name="addison-experimentations/android_device_motorola_addison" remote="gh" revision="lineage-18.1" />
 
- <!--Kernel -->
- <project path="kernel/motorola/msm8953" name="addison-experimentations/android_kernel_motorola_msm8953" remote="gh" revision="lineage-18.1" />
  
- <!--Vendor -->
- <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="lineage-18.1" />
   <project path="private-repo-testing" name="sounddrill31/private-repo-testing" remote="gh2" revision="main" />
 
  <!--Extras -->
