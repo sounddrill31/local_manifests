@@ -20,7 +20,7 @@
     <!--Kernel -->
     <project path="kernel/xiaomi/oxygen" name="kernel_msm8953_4.19" remote="halibw" revision="oxygen/spec/main" />
     <!--Vendor -->
-    <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="halibw" revision="lineage-20_4.19" />
+    <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="sounddrill31" revision="attempt/lineage-18.1_4.19" />
     <!--CleanUp Existing-->
     <!--<remove-project name="LineageOS/android_hardware_qcom_display"/>-->
     <remove-project name="LineageOS/android_hardware_qcom_audio"/>
