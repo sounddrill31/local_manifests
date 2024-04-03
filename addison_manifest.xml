@@ -5,13 +5,13 @@
             fetch="https://github.com"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/motorola/addison" name="addison-experimentations/android_device_motorola_addison" remote="github" revision="lineage-18.1" />
+ <project path="device/samsung/gta4l" name="DarkLord2099/device_samsung_gta4l" remote="github" revision="lineage-20" />
 
  <!--Kernel -->
- <project path="kernel/motorola/msm8953" name="addison-experimentations/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />
+ <project path="Kernel/samsung/gta4l" name="DarkLord2099/Kernel_samsung_gta4l" remote="github" revision="lineage-20" />
  
  <!--Vendor -->
- <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />
+ <project path="vendor/samsung_gta4l" name="DarkLord2099/vendor_samsung_gta4l" remote="github" revision="lineage-20" />
  
  <!--Extras -->
  <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
