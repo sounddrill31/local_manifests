@@ -8,7 +8,7 @@
  <project path="device/samsung/gta4l" name="DarkLord2099/device_samsung_gta4l" remote="github" revision="lineage-20" />
 
  <!--Kernel -->
- <project path="kernel/samsung/gta4l" name="DarkLord2099/Kernel_samsung_gta4l" remote="github" revision="lineage-20" />
+ <project path="kernel/samsung/gta4l" name="DarkLord2099/kernel_samsung_gta4l" remote="github" revision="lineage-20" />
  
  <!--Vendor -->
  <project path="vendor/samsung_gta4l" name="DarkLord2099/vendor_samsung_gta4l" remote="github" revision="lineage-20" />
