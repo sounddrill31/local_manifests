@@ -19,4 +19,5 @@
  <!--Hardware -->
 
 <Project path="android/hardware/samsung" name ="DarkLord2099/android_hardware_samsung" revision="lineage-20" />
+
 </manifest>
