@@ -24,8 +24,4 @@
  <!--Extras -->
  <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
 
- <!--Hardware -->
-
-<Project path="hardware/samsung" name="DarkLord2099/hardware_samsung" revision="lineage-20" />
-
 </manifest>
