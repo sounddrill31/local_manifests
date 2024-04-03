@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="gh"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/generic/kernelstuff" name="sounddrill31/android_device_generic_kernelstuff" remote="gh" revision="main" />
+
+ <!--Kernel -->
+ <project path="kernel/xiaomi/oxygen" name="halibw/kernel_msm8953_4.19 " remote="gh" revision="common" />
+</manifest>
