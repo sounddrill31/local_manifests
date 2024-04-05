@@ -22,5 +22,7 @@
 <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
 
  <!-- Prebuilts -->
-<project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="fourteen" clone-depth="1" />
+<remove-project name="yaosp/prebuilts_clang_host_linux-x86"/>
+
+<project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="fixthis" clone-depth="1" />
 </manifest>
