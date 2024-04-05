@@ -24,7 +24,4 @@
  <!--Extras -->
  <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
 
-<!--clang -->
-<project path="lineage/clang" name="DarkLord2099/lineage_clang" remote="gitlab" revision="lineage-20" />
- 
 </manifest>
