@@ -22,6 +22,6 @@
 <Project path="vendor/samsung/gta4l_common" name="DarkLord2099/vendor_samsung_gta4l_common" revision="lineage-20" />
  
  <!--Extras -->
- <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
+ <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-20" /> -->
 
 </manifest>
