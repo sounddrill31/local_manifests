@@ -2,7 +2,7 @@
 <manifest>
  <!-- Remotes -->
     <remote name="DarkLord2099"
-            fetch="https://github.com"
+            fetch="https://github.com/DarkLord2099"
             clone-depth="1" />
  <!--Tree -->
  <project path="device/samsung/gta4l" name="DarkLord2099/device_samsung_gta4l" remote="DarkLord2099" revision="thirteen" />
