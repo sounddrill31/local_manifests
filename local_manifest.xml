@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Remotes -->
     <remote name="DarkLord2099"
             fetch="https://github.com/DarkLord2099"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/samsung/gta4l" name="DarkLord2099/device_samsung_gta4l" remote="DarkLord2099" revision="thirteen" />
+ <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="DarkLord2099" revision="thirteen" />
  
  <!--Kernel -->
- <project path="kernel/samsung/gta4l" name="DarkLord2099/kernel_samsung_gta4l" remote="DarkLord2099" revision="lineage-20" />
+ <project path="kernel/samsung/gta4l" name="android_kernel_samsung_gta4l" remote="DarkLord2099" revision="lineage-20" />
  
  <!--Vendor -->
- <project path="vendor/samsung_gta4l" name="DarkLord2099/vendor_samsung_gta4l" remote="DarkLord2099" revision="lineage-20" />
+ <project path="vendor/samsung_gta4l" name="android_vendor_samsung_gta4l" remote="DarkLord2099" revision="lineage-20" />
 
   <!-- common -->
- <Project path="device/samsung/gta4l-common" name="DarkLord2099/device_samsung_gta4l-common" remote="DarkLord2099" revision="thirteen" />
- <Project path="vendor/samsung/gta4l_common" name="DarkLord2099/vendor_samsung_gta4l_common" remote="DarkLord2099" revision="lineage-20" />
+ <Project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="DarkLord2099" revision="thirteen" />
+ <Project path="vendor/samsung/gta4l_common" name="android_vendor_samsung_gta4l_common" remote="DarkLord2099" revision="lineage-20" />
 
  <!--Extras -->
  <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
