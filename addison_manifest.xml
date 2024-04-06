@@ -17,7 +17,7 @@
  <project path="vendor/samsung_gta4l" name="DarkLord2099/vendor_samsung_gta4l" remote="github" revision="lineage-20" />
  
  <!--Extras -->
-<!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
+ <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
 
  <!-- Prebuilts -->
 <remove-project name="yaosp/prebuilts_clang_host_linux-x86"/>
