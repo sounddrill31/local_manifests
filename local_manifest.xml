@@ -3,6 +3,9 @@
     <remote name="DarkLord2099"
             fetch="https://github.com/DarkLord2099"
             clone-depth="1" />
+    <remote name="YAAP"
+            fetch="https://gitlab.com/YAAP"
+            clone-depth="1" />
  <!--Tree -->
  <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="DarkLord2099" revision="thirteen" />
  
