@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Remotes -->
-    <remote name="github"
-            fetch="https://github.com"
+    <remote name="DarkLord2099"
+            fetch="https://github.com/DarkLord2099"
+            clone-depth="1" />
+    <remote name="YAAP"
+            fetch="https://gitlab.com/YAAP"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/motorola/addison" name="addison-experimentations/android_device_motorola_addison" remote="github" revision="lineage-18.1" />
-
+ <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="DarkLord2099" revision="thirteen" />
+ 
  <!--Kernel -->
- <project path="kernel/motorola/msm8953" name="addison-experimentations/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />
+ <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="DarkLord2099" revision="lineage-20" />
  
  <!--Vendor -->
- <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />
- 
- <!--Extras -->
- <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
- 
+ <project path="vendor/samsung_gta4l" name="android_vendor_samsung_gta4l" remote="DarkLord2099" revision="lineage-20" />
+
+  <!-- common -->
+ <Project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="DarkLord2099" revision="thirteen" />
+ <Project path="vendor/samsung/gta4l_common" name="android_vendor_samsung_gta4l_common" remote="DarkLord2099" revision="lineage-20" />
+
+ <!-- Prebuilts -->
+<remove-project name="yaosp/prebuilts_clang_host_linux-x86"/>
+
+<project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="fourteen" clone-depth="1" />
 </manifest>
