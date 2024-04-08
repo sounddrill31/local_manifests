@@ -5,13 +5,13 @@
             clone-depth="1" />
     <!--Credit to zhengz/rik0612c for Sources and keeping our device alive -->                            
  <!--Tree -->
- <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="DarkLord2099" revision="lineage-21" />
+ <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="DarkLord2099" revision="crdoid-13" />
 
  <!--Kernel -->
- <project path="kernel/oneplus/bacon" name="android_kernel_oppo_msm8974" remote="DarkLord2099" revision="lineage-20" />
+ <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="DarkLord2099" revision="lineage-20" />
 
  <!--Vendor -->
- <project path="vendor/oneplus/bacon" name="proprietary_vendor_oneplus_bacon" remote="DarkLord2099" revision="lineage-20" />
+ <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="DarkLord2099" revision="lineage-20" />
 
  <!--Other HALs-->
    
@@ -20,7 +20,7 @@
  <!-- Replacements -->
 
  <!-- Common -->
- <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="DarkLord2099" revision="lineage-21" />
- <project path="vendor/oppo/msm8974-common" name="proprietary_vendor_oppo_msm8974-common" remote="DarkLord2099" revision="lineage-20" />
+ <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="DarkLord2099" revision="crdoid-13" />
+ <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="DarkLord2099" revision="lineage-20" />
 
 </manifest>
