@@ -8,6 +8,8 @@
             clone-depth="1" />    
     <remote  name="AOSPA"
            fetch="https://github.com/AOSPA"/>  
+    <remote  name="gh"
+           fetch="https://github.com"/>  
  <!--Tree -->
  <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="sounddrill31" revision="cipher-14" />
 
@@ -20,5 +22,8 @@
 <!--CleanUp Existing-->
 
 <!--Other HALs-->
-   
+
+<!-- Hardware -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="gh" revision="lineage-21" />
+
 </manifest>
