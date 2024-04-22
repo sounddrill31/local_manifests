@@ -24,6 +24,6 @@
 <!--Other HALs-->
 
 <!-- Hardware -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="gh" revision="lineage-21" />
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
 
 </manifest>
