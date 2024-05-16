@@ -17,14 +17,14 @@
     <remote  name="NopeNopeGuy"
            fetch="https://github.com/NopeNopeGuy"/>                                  
  <!--Tree -->
- <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="lmodroid-13_4.19" />
+ <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="lmodroid-14" />
 
 
  <!--Kernel -->
- <project path="kernel/xiaomi/oxygen" name="kernel_msm8953_4.19" remote="halibw" revision="oxygen/spec/main" />
+ <project path="kernel/xiaomi/oxygen" name="android_kernel_xiaomi_oxygen" remote="halibw" revision="lineage-21" />
  
  <!--Vendor -->
- <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="halibw" revision="lineage-20_4.19" />
+ <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="halibw" revision="lineage-21" />
   
   <!--CleanUp Existing-->
   <!--<remove-project name="LineageOS/android_hardware_qcom_audio"/>
