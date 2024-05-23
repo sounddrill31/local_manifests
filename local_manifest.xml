@@ -24,7 +24,7 @@
  <project path="kernel/xiaomi/oxygen" name="android_kernel_xiaomi_oxygen" remote="halibw" revision="lineage-21" />
  
  <!--Vendor -->
- <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="halibw" revision="lineage-21" />
+ <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="sounddrill31" revision="lmodroid-14" />
   
   <!--CleanUp Existing-->
   <!--<remove-project name="LineageOS/android_hardware_qcom_audio"/>
