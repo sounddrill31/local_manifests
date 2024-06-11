@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="gh"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/realme/RMX3371" name="manaswii/android_device_xiaomi_munch" remote="gh" revision="android-12.1" />
+</manifest>
