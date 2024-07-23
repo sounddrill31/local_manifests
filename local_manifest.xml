@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="gh"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--Tree -->
+ <!--<project path="device/motorola/addison" name="addison-experimentations/android_device_motorola_addison" remote="gh" revision="lineage-18.1" />-->
+</manifest>
